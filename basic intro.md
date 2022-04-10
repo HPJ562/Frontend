@@ -2,13 +2,13 @@ Introduction
 
 installation 
 - vs code
- * live server
+live server
 Bracket Pair Colorizer 2
 CSS Peek
 HTML CSS Support
 Path Intellisense
 Prettier
-*
+
 - Git
 Replit Introduction 
 
