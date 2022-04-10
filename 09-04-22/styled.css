@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&family=Rubik+Microbe&family=Rubik+Wet+Paint&display=swap');
+
+body{
+    padding:1.25em;
+ 
+}
+table{
+    width: 700px;
+    border:1px solid #ddd;
+   border-radius: 1em;
+   border-collapse: collapse;
+   overflow: hidden;
+
+   
+
+}
+th{
+   text-transform: uppercase;
+    background-color: rgb(102, 134, 251);
+    color: white;
+    padding:1em;
+    /* font-family: 'Rubik Microbe', cursive; */
+    font-family: "Poppins";
+}
+td{
+    padding: 1em;
+    
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    
+}
+.relative{
+    position:relative;
+    left:30px;
+    top:30px;
+    
+}
+
+
