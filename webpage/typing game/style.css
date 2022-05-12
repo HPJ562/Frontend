@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #1e0555;
+}
+.container{
+    background-color: #f0db4f;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+}
+.timer{
+    position: absolute;
+    top:2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f0db4f;
+}
+.quote-display{
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+}
+.quote-input{
+    background-color: transparent;
+    border: 2px solid #a1922e;
+    border-radius: .5rem;
+    outline: none;
+   width: 100%;
+   height: 8rem;
+   margin: auto;
+   resize: none;
+   padding: .5rem 1rem;
+}
+.quote-input:focus{
+    border-color: black;
+}
+.correct{
+    color:green;
+    text-decoration: underline;
+}
+.incorrect{
+    color:red;
+
+}
